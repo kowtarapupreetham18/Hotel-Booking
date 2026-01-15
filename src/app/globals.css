@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F8FAFC;
+  --foreground: #1E293B;
+  --primary: #1E3A8A;
+  --accent: #D4AF37;
+  --accent-foreground: #ffffff;
+  --muted: #64748B;
+  --border: #E2E8F0;
+}
+
+.dark {
+  --background: #0F172A;
+  --foreground: #F8FAFC;
+  --primary: #3B82F6;
+  --accent: #D4AF37;
+  --muted: #94A3B8;
+  --border: #1E293B;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  
+  --font-sans: "Inter", var(--font-geist-sans);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+}
+
+/* Custom Utilities */
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F1D279 50%, #D4AF37 100%);
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F1D279 50%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
