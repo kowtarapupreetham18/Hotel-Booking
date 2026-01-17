@@ -6,21 +6,12 @@ import { Check, X, ZoomIn, ChevronLeft, ChevronRight } from "lucide-react"
 import { useAppContext } from "@/context/AppContext"
 
 const images = [
-    "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1200", // Hero / Exterior
-    "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1200", // Deluxe Room
-    "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=1200", // Double Room
-    "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&q=80&w=1200", // Single Room
-    "https://images.unsplash.com/photo-1537726235470-8504e3bdb285?auto=format&fit=crop&q=80&w=1200", // Pool
-    "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80&w=1200", // Food/Dining
-    "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&q=80&w=1200", // Resort View
-    "https://images.unsplash.com/photo-1551882547-ff43c6163351?auto=format&fit=crop&q=80&w=1200", // Pillows/Details
-    "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1200", // Balcony
-    "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&q=80&w=1200", // Terrace
-    "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&q=80&w=1200", // Bathroom
-    "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=1200", // Garden
-    "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&q=80&w=1200", // Entrance
-    "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&q=80&w=1200", // Lobby
-    "https://images.unsplash.com/photo-1495365200469-651151746257?auto=format&fit=crop&q=80&w=1200", // Tirupati View
+    "/uploaded_image_0_1768498696649.jpg",
+    "/uploaded_image_1_1768498696649.jpg",
+    "/uploaded_image_2_1768498696649.jpg",
+    "/uploaded_image_3_1768498696649.jpg",
+    "/uploaded_image_4_1768498696649.jpg",
+    "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80&w=1200",
 ]
 
 export function Gallery() {

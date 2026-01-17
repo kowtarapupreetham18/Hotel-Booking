@@ -13,7 +13,7 @@ export function Hero() {
             <div
                 className="absolute inset-0 z-0 parallax"
                 style={{
-                    backgroundImage: 'url("https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2000")',
+                    backgroundImage: 'url("/uploaded_image_3_1768498696649.jpg")',
                 }}
             >
                 <div className="absolute inset-0 bg-slate-950/40" />

@@ -66,7 +66,7 @@ export function About() {
                     >
                         <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
                             <img
-                                src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1200"
+                                src="/uploaded_image_0_1768498696649.jpg"
                                 alt="Luxury Suite"
                                 className="w-full h-full object-cover"
                             />

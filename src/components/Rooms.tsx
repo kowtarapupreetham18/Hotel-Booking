@@ -22,7 +22,7 @@ const rooms: Room[] = [
         name: "Deluxe Double Suite",
         price: "₹3,500",
         capacity: 2,
-        image: `https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=1200`,
+        image: `/uploaded_image_2_1768498696649.jpg`,
         features: ["King Bed", "Garden View", "Mini-bar", "Work Desk", "Rain Shower"],
         description: "Experience the ultimate comfort in our Deluxe Double Suite. Offering a blend of elegance and modern amenities, this room features a plush king-sized bed, high-speed internet, and a private balcony overlooking the hills."
     })),
@@ -31,7 +31,7 @@ const rooms: Room[] = [
         name: "Premium Single Room",
         price: "₹2,200",
         capacity: 1,
-        image: `https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&q=80&w=1200`,
+        image: `/uploaded_image_0_1768498696649.jpg`,
         features: ["Queen Bed", "Hill View", "Smart TV", "Coffee Maker", "Modern Bath"],
         description: "Our Premium Single Room is designed for the solo traveler who doesn't want to compromise on luxury. Compact yet spacious, it features everything you need for a restful stay."
     }))
