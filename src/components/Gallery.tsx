@@ -6,10 +6,13 @@ import { Check, X, ZoomIn, ChevronLeft, ChevronRight } from "lucide-react"
 import { useAppContext } from "@/context/AppContext"
 
 const images = [
-    "/uploaded_image_0_1768498696649.jpg",
-    "/uploaded_image_1_1768498696649.jpg",
-    "/uploaded_image_2_1768498696649.jpg",
-    "/uploaded_image_3_1768498696649.jpg",
+    "/hero_bg.png",
+    "/deluxe_suite_1.png",
+    "/deluxe_suite_2.png",
+    "/premium_single_1.png",
+    "/premium_single_2.png",
+    "/garden_suite.png",
+    "/luxury_bathroom.png",
     "/uploaded_image_4_1768498696649.jpg",
     "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80&w=1200",
 ]

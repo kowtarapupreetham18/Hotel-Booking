@@ -13,7 +13,7 @@ export function Hero() {
             <div
                 className="absolute inset-0 z-0 parallax"
                 style={{
-                    backgroundImage: 'url("/uploaded_image_3_1768498696649.jpg")',
+                    backgroundImage: 'url("/hero_bg.png")',
                 }}
             >
                 <div className="absolute inset-0 bg-slate-950/40" />

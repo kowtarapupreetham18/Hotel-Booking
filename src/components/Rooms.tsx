@@ -17,24 +17,51 @@ interface Room {
 }
 
 const rooms: Room[] = [
-    ...Array(5).fill(null).map((_, i) => ({
-        id: `double-${i}`,
+    {
+        id: "deluxe-1",
         name: "Deluxe Double Suite",
         price: "₹3,500",
         capacity: 2,
-        image: `/uploaded_image_2_1768498696649.jpg`,
-        features: ["King Bed", "Garden View", "Mini-bar", "Work Desk", "Rain Shower"],
-        description: "Experience the ultimate comfort in our Deluxe Double Suite. Offering a blend of elegance and modern amenities, this room features a plush king-sized bed, high-speed internet, and a private balcony overlooking the hills."
-    })),
-    ...Array(5).fill(null).map((_, i) => ({
-        id: `single-${i}`,
+        image: "/deluxe_suite_1.png",
+        features: ["King Bed", "Hill View", "Mini-bar", "Work Desk", "Rain Shower"],
+        description: "Experience the ultimate comfort in our Deluxe Double Suite. Offering a blend of elegance and modern amenities, this room features a plush king-sized bed, high-speed internet, and a private balcony overlooking the Tirumala hills."
+    },
+    {
+        id: "deluxe-2",
+        name: "Executive Double Suite",
+        price: "₹3,800",
+        capacity: 2,
+        image: "/deluxe_suite_2.png",
+        features: ["King Bed", "Private Balcony", "Smart TV", "Premium Linens", "Bath Tub"],
+        description: "Our Executive Double Suite defines luxury. With a larger living area and a private balcony, it's perfect for couples seeking a premium stay during their Tirupati visit."
+    },
+    {
+        id: "single-1",
         name: "Premium Single Room",
         price: "₹2,200",
         capacity: 1,
-        image: `/uploaded_image_0_1768498696649.jpg`,
-        features: ["Queen Bed", "Hill View", "Smart TV", "Coffee Maker", "Modern Bath"],
+        image: "/premium_single_1.png",
+        features: ["Queen Bed", "Garden View", "Smart TV", "Coffee Maker", "Modern Bath"],
         description: "Our Premium Single Room is designed for the solo traveler who doesn't want to compromise on luxury. Compact yet spacious, it features everything you need for a restful stay."
-    }))
+    },
+    {
+        id: "single-2",
+        name: "Standard Single Room",
+        price: "₹1,950",
+        capacity: 1,
+        image: "/premium_single_2.png",
+        features: ["Queen Bed", "Hill View", "WiFi", "Work Desk", "Shower"],
+        description: "A comfortable and stylish room for solo travelers. Features modern minimalist decor and all essential amenities for a peaceful night's rest."
+    },
+    {
+        id: "deluxe-3",
+        name: "Luxury Garden Suite",
+        price: "₹4,200",
+        capacity: 2,
+        image: "/garden_suite.png",
+        features: ["King Bed", "Garden Entry", "Mini-bar", "Rain Shower", "Lounge Area"],
+        description: "The Garden Suite offers direct access to our lush greenery, making it a peaceful sanctuary for nature lovers and families."
+    }
 ]
 
 export function Rooms() {
